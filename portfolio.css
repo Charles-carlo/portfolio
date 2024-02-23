@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+
+
+}
+nav .logo{
+    color: rgb(171, 171, 250);
+    font-size: larger;
+}
+.navbar{
+    display: flex;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.page{
+    display: flex;
+    justify-content: space-between;  
+    padding: 0rem 2rem;  
+}
+.page > .right{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin: 1rem;
+    
+}
+.page > .left{
+    width: 50%;
+    font-weight: 900;
+    font-size: x-large;
+    margin-left: 2px;
+    padding-top: 3rem;
+}
+.page > .left > p{
+    font-weight: normal;
+} 
+.page > .right > img{
+    height: 35rem;
+    width: 30rem;
+    border-radius: 35%;
+}
+.page > .left > .vec{
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+header{
+    margin-bottom: 5rem;
+    /* padding: 0rem 4rem 0rem 4rem ; */
+}
+.abt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    /* background-color: blue; */
+}
+.abt > .about{
+    color:  rgb(213, 213, 248);
+    padding-right: 4rem;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.line{
+  position: relative;
+  
+}
+.line .ll{
+    width: 60rem;
+    height:7px;
+}
+.l{
+    display: flex;
+    align-items: center;
+}
+.x{
+    position: absolute;
+    left: 59.1rem;
+    bottom: -0.8rem;
+}
+main{
+    display: flex;
+    color: rgb(213, 213, 248);
+}
+.main-left{
+    width: 45%;
+    padding-left: 3rem;
+}
+.main-right{
+    width: 55%;
+}
+.main-right > h2{
+    text-align: center;
+    margin-top: 4rem;
+}
+.main-right > p{
+    padding-right: 3rem;
+    padding-left: 2rem;
+}
+.main-left > img{
+    width: 400px;
+    height: 600px;
+}
+.expertise{
+    display: flex;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.e-left{
+    width: 50%;
+}
+.e-right{
+    width: 50%;
+    padding-left: 1rem;
+}
+.expertise-left{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+.expertise > h2{
+    text-align: center;
+    margin-top: 3rem;
+}
+.expertise-right > img{
+    width: 25.01px; ;
+    height: 17.73px ;
+    margin-right: 1rem;
+}
+.expertise-left > img{
+    width: 25.01px;
+    height: 17.73px;
+    margin-right: 1rem;
+}
+.expertise-right{
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+}
+.design{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.line2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.x2{
+    position: absolute;
+    left: -0.9rem;
+    bottom: -0.65rem;
+}
+.ll2{
+    width: 60rem;
+}
+.dgn{
+    color:  rgb(213, 213, 248);
+    padding-left: 3rem;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    display: flex;
+    justify-content:space-evenly;
+}
+.gallery{
+    border: none;
+    width: 25%;
+}
+
+.gallery img{
+    width: 100%;
+    
+}
+.desc{
+    text-align: center;
+    padding: 15px;
+}
