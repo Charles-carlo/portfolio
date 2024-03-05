@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(240, 226, 226);
+}
+main{
+    display: flex;
+}
+.contacts{
+    width: 40%;
+    /* background-color: blue; */
+    padding: 5rem 0rem 5rem 5rem;
+}
+.contacts > h1{
+    padding-bottom: 1rem;
+}
+.contacts > p{
+    padding-bottom: 1rem;
+}
+.icons{
+
+}
+.email{
+    padding-bottom: 5rem;
+    display: flex;
+    gap: 2rem;
+}
+.email > a{
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+}
+.phone{
+    padding-bottom: 5rem;
+    display: flex;
+    gap: 2rem;
+}
+.phone > span{
+    font-size: xx-large;
+    
+}
+.address{
+    display: flex;
+    gap: 2rem;
+    
+}
+.address > span{
+    font-size: xx-large;    
+}
+.icons img{
+    width: 40px;
+
+}
+.form{
+    background-color: black;
+    width: 60%;
+    color: white;
+    margin: 5rem;
+    border-radius: 15px;
+}
+.form > h1{
+    text-align: center;
+    padding: 2rem 0rem 2rem 0rem;
+}
+input{
+    width: 80%;
+    padding: 1rem;
+    margin: 0rem 2rem 2rem 2rem;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+label{
+    margin:2rem ;
+}
+.bb{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+.bb > button{
+    background-color: white;
+    color: black;
+    width: 20%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+}
+.bb > button:hover{
+    background-color: rgb(177, 156, 156);
+}

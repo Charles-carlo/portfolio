@@ -1,8 +1,11 @@
 *{
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     color: white;
     padding: 0;
     margin: 0;
@@ -18,6 +21,7 @@ nav{
 nav .logo{
     color: rgb(171, 171, 250);
     font-size: larger;
+    padding: 1rem;
 }
 .navbar{
     display: flex;
@@ -28,10 +32,14 @@ nav .logo{
     color: white;
     text-decoration: none;
 }
+.navbar a:hover{
+    color: rgb(195, 195, 247);
+}
 .page{
     display: flex;
     justify-content: space-between;  
-    padding: 0rem 2rem;  
+    padding: 0rem 2rem;
+    margin-top: 3rem;  
 }
 .page > .right{
     width: 50%;
@@ -47,19 +55,31 @@ nav .logo{
     margin-left: 2px;
     padding-top: 3rem;
 }
+.page > .left > h1{
+    font-weight: bolder;
+}
+.page > .left > h2{
+    color: rgb(171, 171, 250);
+}
 .page > .left > p{
     font-weight: normal;
 } 
+.page> .left > button{
+    border-radius: 10%;
+}
 .page > .right > img{
-    height: 35rem;
-    width: 30rem;
-    border-radius: 35%;
+    height: 90%;
+    width: 80%;
+    border-radius: 10%;
 }
 .page > .left > .vec{
     display: flex;
     justify-content: left;
-    gap: 2rem;
+    gap: 3rem;
     padding-top: 1rem;
+}
+.vec > a > img{
+    width: 2rem;
 }
 header{
     margin-bottom: 5rem;
@@ -85,7 +105,7 @@ header{
 }
 .line .ll{
     width: 60rem;
-    height:7px;
+    height:3px;
 }
 .l{
     display: flex;
@@ -94,7 +114,7 @@ header{
 .x{
     position: absolute;
     left: 59.1rem;
-    bottom: -0.8rem;
+    bottom: -0.7rem;
 }
 main{
     display: flex;
@@ -118,6 +138,7 @@ main{
 .main-left > img{
     width: 400px;
     height: 600px;
+    border-radius: 35%;
 }
 .expertise{
     display: flex;
@@ -134,6 +155,7 @@ main{
 .expertise-left{
     display: flex;
     align-items: center;
+    justify-content: center;
     /* background-color: red; */
 }
 .expertise > h2{
@@ -144,16 +166,19 @@ main{
     width: 25.01px; ;
     height: 17.73px ;
     margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 .expertise-left > img{
     width: 25.01px;
     height: 17.73px;
     margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 .expertise-right{
     display: flex;
     /* background-color: blue; */
     align-items: center;
+    justify-content: center;
 }
 .design{
     display: flex;
@@ -171,8 +196,8 @@ main{
 }
 .x2{
     position: absolute;
-    left: -0.9rem;
-    bottom: -0.65rem;
+    left: -0.7rem;
+    bottom: -0.15rem;
 }
 .ll2{
     width: 60rem;
@@ -187,16 +212,42 @@ footer{
     display: flex;
     justify-content:space-evenly;
 }
-.gallery{
-    border: none;
-    width: 25%;
+footer{
+    /* padding: 3rem; */
+    display: flex;
+    flex-direction: column;
 }
-
-.gallery img{
-    width: 100%;
-    
-}
-.desc{
+.footer{
     text-align: center;
-    padding: 15px;
+    background-color: rgb(141, 141, 253);
+    width: 100%;
+    color: black;
+    height: 5rem;
+    bottom: 0;
+
+}
+.footer > p{
+    padding-top:2rem ;
+}
+.cc{
+    padding: 3rem;
+}
+.contact{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 4rem;
+    margin: 4rem;
+    border-radius: 10px;
+    color: black;
+    height: 20rem;
+}
+.contact > a > button{
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(141, 141, 253);
 }
